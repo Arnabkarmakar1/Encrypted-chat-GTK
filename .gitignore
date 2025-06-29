@@ -1,0 +1,7 @@
+*.o
+*.out
+*.exe
+client
+clinet_ui
+server
+launcher
