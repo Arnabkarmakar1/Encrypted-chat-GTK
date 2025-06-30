@@ -65,34 +65,34 @@ From the launcher:
   Click "Add User" to spawn a new GTK chat window.
   Each client must enter a username to join the chatroom.
 
-How It Works
-  The launcher GUI initializes the server and client instances.
-  The server listens on a fixed port and handles each client in a separate thread.
-  Each message is XOR-encrypted before being sent and decrypted after reception.
-  Messages are displayed in the GTK chat window of each client and printed on the server terminal.
-  Typing /exit in a client window disconnects that client only, without affecting others or the server.
+How It Works:
+- The launcher GUI initializes the server and client instances.
+- The server listens on a fixed port and handles each client in a separate thread.
+- Each message is XOR-encrypted before being sent and decrypted after reception.
+- Messages are displayed in the GTK chat window of each client and printed on the server terminal.
+- Typing /exit in a client window disconnects that client only, without affecting others or the server.
 
-Example Use Case
-  ./launcher opens a GUI window.
-  Click "Launch Server": opens the terminal and starts the server.
-  Click "Add User": opens a new client chat window.
-  Enter a username and begin chatting.
-  Add multiple users to test real-time multi-client communication.
+Example Use Case:
+- ./launcher opens a GUI window.
+- Click "Launch Server": opens the terminal and starts the server.
+- Click "Add User": opens a new client chat window.
+- Enter a username and begin chatting.
+- Add multiple users to test real-time multi-client communication.
 
-Future Improvements
-  Replace XOR encryption with a robust algorithm such as AES or TLS-based secure sockets.
-  Implement private messaging support between users.
-  Add timestamps, message delivery status, and user notifications.
-  Implement server-side chat logs and analytics.
-  Provide a cross-platform version using libraries like Qt or FLTK.
-  Add administrative features to kick or mute users.
+Future Improvements:
+- Replace XOR encryption with a robust algorithm such as AES or TLS-based secure sockets.
+- Implement private messaging support between users.
+- Add timestamps, message delivery status, and user notifications.
+- Implement server-side chat logs and analytics.
+- Provide a cross-platform version using libraries like Qt or FLTK.
+- Add administrative features to kick or mute users.
 
-Author
-Arnab Karmakar
-B.Tech in Information Technology
-Government College of Engineering and Textile Technology, Serampore
-West Bengal, India
-GitHub: https://github.com/Arnabkarmakar1
+Author:
+- Arnab Karmakar
+- B.Tech in Information Technology
+- Government College of Engineering and Textile Technology, Serampore
+- West Bengal, India
+- GitHub: https://github.com/Arnabkarmakar1
 
 
 
