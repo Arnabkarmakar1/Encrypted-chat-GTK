@@ -61,9 +61,9 @@ gcc launcher.c -o launcher `pkg-config --cflags --libs gtk+-3.0`
 ```
 
 From the launcher:
-  Click "Launch Server" to start the server in a new terminal.
-  Click "Add User" to spawn a new GTK chat window.
-  Each client must enter a username to join the chatroom.
+- Click "Launch Server" to start the server in a new terminal.
+- Click "Add User" to spawn a new GTK chat window.
+- Each client must enter a username to join the chatroom.
 
 How It Works:
 - The launcher GUI initializes the server and client instances.
