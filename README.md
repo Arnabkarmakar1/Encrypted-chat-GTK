@@ -29,12 +29,12 @@ This project is a real-time, encrypted multi-client chatroom application built u
 ## Directory Structure
 
 Project/
-│
-├── server.c -> Server source code (handles multiple clients)
-├── client_ui.c -> Client-side GUI with messaging logic
-├── launcher.c -> GTK launcher for server and client management
-├── .gitignore -> Excludes compiled binaries from Git
-├── README.md -> Project documentation (this file)
+-│
+-├── server.c -> Server source code (handles multiple clients)
+-├── client_ui.c -> Client-side GUI with messaging logic
+-├── launcher.c -> GTK launcher for server and client management
+-├── .gitignore -> Excludes compiled binaries from Git
+-├── README.md -> Project documentation (this file)
 
 
 ---
