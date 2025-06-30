@@ -14,13 +14,15 @@ GtkWidget *text_view;
 GtkWidget *entry;
 char username[50];
 
-void xor_encrypt_decrypt(char *msg) {
+void xor_encrypt_decrypt(char *msg) 
+{
     char key = 0xAA;
     for (int i = 0; msg[i] != '\0'; i++)
         msg[i] ^= key;
 }
 
-void *receive_messages(void *arg) {
+void *receive_messages(void *arg) 
+{
     char buffer[BUFFER_SIZE];
     while (1) {
         memset(buffer, 0, BUFFER_SIZE);
